@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'trebuchet';
+    src: url("../assets/fonts/trebuc.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+/* Colors: */
+--unnamed-color-389cd6: #389CD6;
+--white: #FFFFFF;
+--dark-gray: #7B7070;
+--brand-gray: #9D8E8E;
+--light-gray: #D9D5D5;
+--red: #EE6381;
+--green: #309D5F;
+--unnamed-color-549bd1: #549BD1;
+--unnamed-color-9d8d8d: #9D8D8D;
+
+/* Font/text values */
+--unnamed-font-family-trebuchet-ms: 'trebuchet';
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-bold: bold;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-20: 20px;
+--unnamed-font-size-25: 25px;
+--unnamed-font-size-31: 31px;
+--unnamed-font-size-39: 39px;
+--unnamed-font-size-48: 48px;
+--unnamed-character-spacing-0-5: 0.5px;
+--unnamed-character-spacing-0-62: 0.62px;
+--unnamed-character-spacing-0-78: 0.78px;
+--unnamed-character-spacing-0-96: 0.96px;
+--unnamed-character-spacing-0-32: 0.32px;
+--unnamed-character-spacing-0-4: 0.4px;
+--unnamed-line-spacing-22: 22px;
+--unnamed-line-spacing-28: 28px;
+--unnamed-line-spacing-36: 36px;
+--unnamed-line-spacing-40: 40px;
+--unnamed-line-spacing-50: 50px;
+--unnamed-line-spacing-70: 70px;
+}
+
+/* Character Styles */
+.h1 {
+font-family: var(--unnamed-font-family-trebuchet-ms);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-48);
+line-height: var(--unnamed-line-spacing-70);
+letter-spacing: var(--unnamed-character-spacing-0-96);
+color: var(--unnamed-color-549bd1);
+}
+.h2 {
+font-family: var(--unnamed-font-family-trebuchet-ms);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-39);
+line-height: var(--unnamed-line-spacing-50);
+letter-spacing: var(--unnamed-character-spacing-0-78);
+color: var(--unnamed-color-549bd1);
+}
+.h3 {
+font-family: var(--unnamed-font-family-trebuchet-ms);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-31);
+line-height: var(--unnamed-line-spacing-40);
+letter-spacing: var(--unnamed-character-spacing-0-62);
+color: var(--unnamed-color-549bd1);
+}
+.h4 {
+font-family: var(--unnamed-font-family-trebuchet-ms);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-25);
+line-height: var(--unnamed-line-spacing-36);
+letter-spacing: var(--unnamed-character-spacing-0-5);
+color: var(--unnamed-color-549bd1);
+}
+.p-large {
+font-family: var(--unnamed-font-family-trebuchet-ms);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-20);
+line-height: var(--unnamed-line-spacing-28);
+letter-spacing: var(--unnamed-character-spacing-0-4);
+color: var(--unnamed-color-9d8d8d);
+}
+.p {
+font-family: var(--unnamed-font-family-trebuchet-ms);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-16);
+line-height: var(--unnamed-line-spacing-22);
+letter-spacing: var(--unnamed-character-spacing-0-32);
+color: var(--unnamed-color-9d8d8d);
+}
