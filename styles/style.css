@@ -316,6 +316,8 @@ footer{
 
 @media (max-width: 450px) {
     
+    /*-----------------Header-------------------*/
+
     .top-header{
         width: 100%;
         height: 80px;
@@ -351,6 +353,8 @@ footer{
         background-size: contain;
         margin-bottom: 40px;
     }
+
+    /*------------------------Primeira seção----------------------------------*/
 
     section{
         margin-bottom: 0px;
@@ -417,15 +421,16 @@ footer{
 
 
 
-    /*Seção dos produtos (terceira seção)*/
+    /*--------------------Seção dos produtos (terceira seção)----------------------*/
 
     .products-section{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* display: none; */
         margin-bottom: 40px;
+        text-align: center;
+        padding: 20px;
     }
 
 
@@ -440,13 +445,15 @@ footer{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         text-align: center;
         gap: 33px;
+        overflow: auto;
     }
 
     .product-card{
+        width: 356px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -455,7 +462,6 @@ footer{
         border: none;
         border-radius: 16px;
         box-shadow: 0px 3px 16px #00000014;
-
     }
 
     .product-card p {
@@ -486,7 +492,7 @@ footer{
         background-position: center;
     }
 
-/* Quarta seção */
+    /*---------------------Quarta seção-------------------------*/
 
     .fourth-section{
         width: 392px;
@@ -494,6 +500,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 20px;
     }
 
     .fourth-section h2{
@@ -502,14 +509,16 @@ footer{
         margin-bottom: 80px;
         text-align: center;
     }
+      
 
     .discoveries{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         gap: 32px;
+        overflow: auto;
     }
 
     .discoveries-card{
@@ -539,7 +548,7 @@ footer{
         margin-bottom: 120px;
     }
 
-    /*Footer*/
+    /*-------------------------------Footer------------------------------------*/
 
     footer{
         width: 100%;
