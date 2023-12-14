@@ -313,6 +313,15 @@ footer{
     display: none;
 }
 
+button{
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
 
 @media (max-width: 450px) {
     
@@ -369,7 +378,7 @@ footer{
     }
     
     .first-section-text-content{
-        width: 392px;
+        width: 380px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -378,13 +387,13 @@ footer{
     }
     
     .first-section-text-content h2, .second-section-text-content h2{
-        font-size: var(--unnamed-font-size-39);
+        font-size: var(--unnamed-font-size-31);
         color: var(--unnamed-color-389cd6);
         margin-bottom: 40px;
     }
     
     .first-section-text-content p, .second-section-text-content p {
-        font-size: var(--unnamed-font-size-20);
+        font-size: var(--unnamed-font-size-16);
         color: var(--dark-gray);
         margin-bottom: 16px;
     }
@@ -411,7 +420,7 @@ footer{
     }
     
     .second-section-text-content{
-        width: 392px;
+        width: 380px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -430,12 +439,11 @@ footer{
         align-items: center;
         margin-bottom: 40px;
         text-align: center;
-        padding: 20px;
     }
 
 
     .products-section h2{
-        font-size: var(--unnamed-font-size-39);
+        font-size: var(--unnamed-font-size-31);
         color: var(--unnamed-color-389cd6);
         margin-bottom: 80px;
         text-align: center;
@@ -454,6 +462,7 @@ footer{
 
     .product-card{
         width: 356px;
+        height: 530px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -462,6 +471,7 @@ footer{
         border: none;
         border-radius: 16px;
         box-shadow: 0px 3px 16px #00000014;
+        padding: 20px;
     }
 
     .product-card p {
@@ -488,14 +498,14 @@ footer{
         height: 437px;
         background-image: url("../assets/images/banner-intibiome-05.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
     }
 
     /*---------------------Quarta seção-------------------------*/
 
     .fourth-section{
-        width: 392px;
+        width: 380px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -504,7 +514,7 @@ footer{
     }
 
     .fourth-section h2{
-        font-size: var(--unnamed-font-size-39);
+        font-size: var(--unnamed-font-size-31);
         color: var(--unnamed-color-389cd6);
         margin-bottom: 80px;
         text-align: center;
@@ -570,7 +580,7 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 10px;
-        font-size: var(--unnamed-font-size-20);
+        font-size: var(--unnamed-font-size-16);
         color: var(--white);
     }
 
