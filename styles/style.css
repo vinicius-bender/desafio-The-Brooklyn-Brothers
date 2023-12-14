@@ -25,6 +25,10 @@ body{
     background-color: var(--white);
 }
 
+#menu-icon{
+    visibility: hidden;
+}
+
 .navbar{
     color: var(--white);
     background-color: var(--unnamed-color-389cd6);
@@ -34,7 +38,7 @@ body{
     align-items: center;
     gap: 5px;
     height: 49px;
-    
+    position: relative;
 }
 
 .nav-div{
@@ -207,9 +211,6 @@ section{
 }
 
 
-
-
-
 /*
 Quarta seção
 */
@@ -266,8 +267,6 @@ Quarta seção
 }
 
 
-
-
 /*Footer*/
 
 footer{
@@ -308,4 +307,287 @@ footer{
 
 #instagram-logo{
     width: 43px;
+}
+
+.horizontal-line{
+    display: none;
+}
+
+
+@media (max-width: 450px) {
+    
+    .top-header{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--white);
+    }
+
+    #menu-icon{
+        visibility: visible;
+    }
+
+    .navbar{
+        display: none;
+    }
+    
+    /* .nav-div{
+        width: 149px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    } */
+
+    .banner-hero{
+        width: 100%;
+        height: 475px;
+        background-image: url("../assets/images/banner-intibiome-02.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 40px;
+    }
+
+    section{
+        margin-bottom: 0px;
+    }
+    
+    .first-section-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .first-section-text-content{
+        width: 392px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .first-section-text-content h2, .second-section-text-content h2{
+        font-size: var(--unnamed-font-size-39);
+        color: var(--unnamed-color-389cd6);
+        margin-bottom: 40px;
+    }
+    
+    .first-section-text-content p, .second-section-text-content p {
+        font-size: var(--unnamed-font-size-20);
+        color: var(--dark-gray);
+        margin-bottom: 16px;
+    }
+
+    .icons-content{
+        width: 100%;
+        height: 121px;
+        background-image: url("../assets/images/icons.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    .icons-section{
+        margin-bottom: 40px;
+    }
+    
+    .second-section-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .second-section-text-content{
+        width: 392px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    /*Seção dos produtos (terceira seção)*/
+
+    .products-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* display: none; */
+        margin-bottom: 40px;
+    }
+
+
+    .products-section h2{
+        font-size: var(--unnamed-font-size-39);
+        color: var(--unnamed-color-389cd6);
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .products-section-content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 33px;
+    }
+
+    .product-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        border: none;
+        border-radius: 16px;
+        box-shadow: 0px 3px 16px #00000014;
+
+    }
+
+    .product-card p {
+        width: 292px;
+        font-size: var(--unnamed-font-size-20);
+        color: var(--dark-gray);
+    }
+
+    .product-card button {
+        width: 100%;
+        font-size: var(--unnamed-font-size-25);
+        border: none;
+        border-radius: 0px 0px 16px 16px;
+        height: 73px;
+    }
+
+    .product-card img{
+        width: 356px;
+    }
+
+    .banner-products{
+        margin-top: 120px;
+        width: 100%;
+        height: 437px;
+        background-image: url("../assets/images/banner-intibiome-05.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+/* Quarta seção */
+
+    .fourth-section{
+        width: 392px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourth-section h2{
+        font-size: var(--unnamed-font-size-39);
+        color: var(--unnamed-color-389cd6);
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .discoveries{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .discoveries-card{
+        width: 357px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        font-size: var(--unnamed-font-size-20);
+        color: var(--dark-gray);
+        text-align: center;
+        box-shadow: 0px 3px 16px #00000014;
+        border-radius: 16px;
+        padding-bottom: 50px;
+    }
+
+    .fourth-section button{
+        width: 356px;
+        height: 64px;
+        margin-top: 85px;
+        font-size: var(--unnamed-font-size-20);
+        color: var(--white);
+        background-color: var(--unnamed-color-389cd6);
+        border: none;
+        border-radius: 16px;
+        margin-bottom: 120px;
+    }
+
+    /*Footer*/
+
+    footer{
+        width: 100%;
+        height: 100%;
+        background-color: var(--unnamed-color-389cd6);
+        color: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px 50px 0px;
+
+    }
+
+    .footer-links ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: var(--unnamed-font-size-20);
+        color: var(--white);
+    }
+
+    .footer-images{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: last center;
+        gap: 20px;
+    }
+
+    #ulabs-logo{
+        width: 116px;
+    }
+
+    #instagram-logo{
+        width: 43px;
+    }
+
+    .horizontal-line{
+        display: block;
+    }
+
+    .vertical-line{
+        display: none;
+    }
+
 }
